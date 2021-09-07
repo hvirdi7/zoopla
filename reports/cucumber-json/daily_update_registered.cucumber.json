@@ -1,0 +1,63 @@
+[
+  {
+    "description": "  Description: Users can register for alerts for 1 bed london properties",
+    "keyword": "Feature",
+    "name": "Register for daily email updates",
+    "line": 1,
+    "id": "register-for-daily-email-updates",
+    "tags": [],
+    "uri": "daily_update_registered.feature",
+    "elements": [
+      {
+        "id": "register-for-daily-email-updates;register-for-daily-email-updates-on-rental-property-in-london-for-1-bed-properties-between-£800-and-£1000-per-month",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Register for daily email updates on rental property in London for 1 bed properties between £800 and £1000 per month",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a user is on the homescreen and accepts the Cookie Policies",
+            "result": {
+              "status": "passed",
+              "duration": 1912000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the search area is filled with \"London\"",
+            "result": {
+              "status": "passed",
+              "duration": 888000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "price of \"£800 pcm\"-\"£1,000 pcm\" for \"1+\" bed max is chosen for \"Show all\" house types",
+            "result": {
+              "status": "passed",
+              "duration": 13928000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user registers for daily email alerts with \"Update successful. Your alerts & searches have been updated.\" for \"darren.dibden@gmail.com\" password \"Aries120\"",
+            "result": {
+              "status": "passed",
+              "duration": 9293000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

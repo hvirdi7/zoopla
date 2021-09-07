@@ -1,0 +1,13 @@
+{
+    "watchForFileChanges": false,
+    "baseUrl": "https://www.zoopla.co.uk",
+    "video": false,
+    "defaultCommandTimeout": 10000,
+    "pageLoadTime": 10000,
+    "ignoreTestFiles": ["*.js", "*.md"],
+    "testFiles": "**/*.feature",
+    "screenshotOnRunFailure": true,
+    "chromeWebSecurity": false,
+    "retries": { "runMode": 1, "openMode": 0 }
+}
+
